@@ -26,4 +26,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency "timecop", "~> 0.5.2"
   s.add_development_dependency "database_cleaner", "~> 0.9.1"
   s.add_development_dependency "bcrypt-ruby", "~> 3.0.1"
+  s.add_development_dependency "protected_attributes", "~> 1.0.5"
 end

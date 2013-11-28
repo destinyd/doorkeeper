@@ -16,7 +16,7 @@ Gem::Specification.new do |s|
   s.test_files    = `git ls-files -- test/*`.split("\n")
   s.require_paths = ["lib"]
 
-  s.add_dependency "railties", ">= 3.1"
+  s.add_dependency "railties", ">= 4.0.1"
 
   s.add_development_dependency "sqlite3", "~> 1.3.5"
   s.add_development_dependency "rspec-rails", ">= 2.11.4"
@@ -26,5 +26,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency "timecop", "~> 0.5.2"
   s.add_development_dependency "database_cleaner", "~> 0.9.1"
   s.add_development_dependency "bcrypt-ruby", "~> 3.0.1"
-  s.add_development_dependency "protected_attributes", "~> 1.0.5"
+  s.add_development_dependency "protected_attributes", "~> 1.0.0"
 end
